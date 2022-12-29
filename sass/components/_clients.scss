@@ -1,23 +1,23 @@
 /* Клієнти */;
-.clients-section {
+.clients {
   padding-top: 94px;
   padding-bottom: 0;
 }
 
-.clients-list {
+.clients__list {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-bottom: 94px;
   }
 
-.clients-item {
+.clients__item {
   width: 170px;
   height: 92px;
   display: block;
   }
  
-  .clients-link {
+  .clients__link {
     width: 100%;
     height: 100%;
     background-color: var(--title-text-color);
@@ -35,7 +35,7 @@
     border: 1px solid var(--accent-text-color);
     }
   }
-  .clients-icons {
+  .clients__icons {
     display: flex;
     width: 106px;
     height: 92px;

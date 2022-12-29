@@ -1,10 +1,16 @@
 /* Іконки переваги */
- .benefits-icons-list {
+.benefits-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.benefits-icons {
   @extend %flex-setting;
+  
+ }
+.benefits-distance{
   margin-bottom: 30px;
  }
-
- .benefits-icons-items {
+.benefits-icons__items {
   @extend %flex-setting;
   width: 270px;
   height: 120px;
@@ -15,37 +21,33 @@
 }
  }
 
-.benefits-logo {
+.benefits-icons__logo {
   display: block;
 }
 /* Кінець іконки переваги */
 
-/* Переваги */
-.section-benefits {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-.benefits {
+.benefits-paragraph {
   display: flex;
   justify-content: center;  
   align-items: flex-start;
-  & .item {
-  width: 270px;
  }
-  & .item:not(last-child){
+.benefits-paragraph__item:not(last-child) {
   margin-right: 30px;
- }
 }
-.benefits .title {
+.benefits-paragraph__item {
+  width: 270px;
+}
+
+.benefits-paragraph__title {
   color: var(--primery-text-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
-.benefits .list {
-  /* border: box; */
+.benefits-paragraph__list {
   color: var(--paragraph-text-color);
   font-size: 14px;
   line-height: 1.71;

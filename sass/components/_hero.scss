@@ -1,26 +1,22 @@
-/* Hero */
 .hero {
   display: block;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  }
-.back-photo {
-  /* height: 600px; */
   height: 600px;
   max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
-  /* background-color: #2F303A 40 %; */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-   url(../images/header-photo.jpg);
+  url(../images/header-photo.jpg);
+  }
+.back-photo {
+  margin-left: auto;
+  margin-right: auto;
   }
 
-/* Заголовок */
-.hero-title {
+.hero__title {
   color: var(--title-text-color);
   font-weight: 900;
   font-size: 44px;
@@ -29,7 +25,7 @@
   text-transform: uppercase;
   margin-bottom: 30px;
 }
-/* Кнопка */
+
 .button-main {
   display: inline-block;
   color: var(--title-text-color);

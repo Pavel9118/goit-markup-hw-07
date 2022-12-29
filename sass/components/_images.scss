@@ -1,23 +1,20 @@
 /* ФОТО */
-.images {
+.products__list {
   display: flex;
-  /* align-items: center; */
   justify-content: space-between; 
 }
-.section-images {
+.products {
   padding-bottom: 94px;
 }
-.section-images-thumb {
+.products__thumb {
   position: relative;
 }
-.section-images-text {
+.products__text {
   position: absolute;
   bottom: 0;
   width: 100%;
   height: 70px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %flex-setting;
   background-color: rgba(47, 48, 58, 0.8);
   font-size: 14px;
   line-height: 1.14;

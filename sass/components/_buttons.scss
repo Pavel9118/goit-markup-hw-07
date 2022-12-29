@@ -1,11 +1,14 @@
 /* Блок кнопок в Портфолио */
-.filter {
+.filter-list {
   display: flex;
   justify-content: center;
+  
+}
+.filter-distance{
   margin-bottom: 50px;
 }
 
-.button {
+.filter-list__button {
   padding: 6px 22px;
   margin-right: 8px;
   color: var(--primery-text-color);
