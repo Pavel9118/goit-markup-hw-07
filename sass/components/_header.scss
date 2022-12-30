@@ -43,11 +43,14 @@ margin-right: 93px;
   letter-spacing: 0.02em;
   text-decoration: none;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-.header-nav__link:hover, 
-.header-nav__link:focus {
+  &:hover {
   color: var(--accent-text-color);
   }
+  &:focus {
+  color: var(--accent-text-color);
+  }
+  }
+
 .current {
   color: var(--accent-text-color);
   display: flex;
@@ -55,8 +58,7 @@ margin-right: 93px;
   flex-direction: column;
   align-items: center;
   justify-content:space-between;
-  }
-.current::after {
+  &::after {
   content: "";
   width: 48px;
   height: 4px;
@@ -65,6 +67,8 @@ margin-right: 93px;
   display: block;
   margin-top: 32px;
   }
+  }
+
 
 
 /* Телефон+адреса */
@@ -87,10 +91,12 @@ margin-right: 93px;
   letter-spacing: 0.02em;
   text-decoration: none;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  &:hover, :focus {
+  &:hover {
   color: var(--accent-text-color);
   }
-
+  &:focus {
+  color: var(--accent-text-color);
+  }
 }
 .header-contacts__icon {
   display: flex;
